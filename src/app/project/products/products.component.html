@@ -55,6 +55,22 @@
 
         </div>
 
+        <div class="items">
+            <a>
+                <img src="assets\images\kitchenware.png">
+                <h6>Kitchenwares</h6>
+            </a>
+
+        </div>
+
+        <div class="items">
+            <a>
+                <img src="assets\images\book.png">
+                <h6>Books</h6>
+            </a>
+
+        </div>
+
     </div>
 </div>
 
@@ -66,7 +82,7 @@
             <h5 class="itemdata">{{item.title}}</h5>
             <P class="itemdata">{{item.description}}</P>
             <p><strong>price:</strong>${{item.price}}</p>
-            <p>{{item.category}}</p>
+            <p><strong>{{item.category}}</strong></p>
           
             <button class=" btn-primary" style=" background-color: brown;" (click)="addtoCart(item)" >add to cart</button>
         </div>
