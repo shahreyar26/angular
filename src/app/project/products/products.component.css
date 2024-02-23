@@ -12,6 +12,7 @@
 .items{
     margin: 6px 42px;
     text-align: center;
+    margin-left: auto;
 }
 .itemdata{
     white-space: nowrap;
