@@ -1,0 +1,17 @@
+.form-control{
+    border-radius: 19px;
+    margin-left: 40px;
+    width: 600px;
+background-color: rgb(244, 247, 247);
+}
+.search-icon{
+    z-index: 10;
+    position: absolute;
+    right: 57%;
+    color: rgb(21, 22, 23);
+    top: 31px;
+}
+.header{
+   
+   background-color:black ; 
+}
