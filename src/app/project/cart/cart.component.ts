@@ -17,7 +17,7 @@ export class CartComponent implements OnInit{
       this.allProducts = this.cartapi.getTotalAmount();
 
      
-    }) 
+    }) ;
   }
   removeproduct(item:any){
     this.cartapi.removeCartData(item);

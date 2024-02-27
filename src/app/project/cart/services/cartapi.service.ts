@@ -31,7 +31,8 @@ export class CartapiService {
     this.cartdatalist.map((a:any, index:any)=>{
       grandtotal += a.total;
      
-    })
+    });
+    return grandtotal;
 
   }
   removeCartData(product:any){

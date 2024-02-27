@@ -1,0 +1,49 @@
+<!-- <router-outlet></router-outlet> -->
+<!-- <div class="container">
+    <label for="uname"><b>Username</b></label>
+    <input type="text" placeholder="Enter username" name="uname" formControlName="username">
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" formControlName="password">
+
+    <button (click)="onSubmit()" type="submit" >Login
+    </button>
+    <label>
+      <input type="checkbox" checked="checked" name="remember"> Remember me
+    </label> -->
+  <!-- </div> -->
+
+   <!-- <div class="container" style="background-color:#3f3fab">
+    <input type="text" value="username : {{data.username}}">
+    <input type="text" value="password : {{data.password}}">
+    <span class="psw">Forgot <a href="#">password?</a></span>
+  </div>  -->
+  <form [formGroup]="loginform"> 
+  <div class="imgcontainer">
+    <img src="assets\images\cat.png" alt="Avatar" class="avatar" style="height: 240px; width: 200px;">
+    <strong><h2 style="color: rgb(30, 34, 32);font-family: cursive;font-size: 32px;">  Lets Buy Something</h2></strong>
+  </div>
+  <div class="container">
+    <br><label for="uname"><b>Username:</b></label>
+    <input type="text" placeholder="Enter username" name="uname" formControlName="username"><br>
+
+    <label for="psw"><b>Password:</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" formControlName="password">
+  </div>
+  
+
+ <!--  <div class="container">
+    <label for="uname"><b>Username</b></label>
+    <input type="text" placeholder="Enter username" name="uname" formControlName="username">  -->
+    <div> 
+
+    <br><button (click)="onSubmit()" type="submit">Login</button><br>
+    
+    <br><label>
+     <input type="checkbox" checked="checked" name="remember"> Remember me
+    </label><br>
+  </div>
+</form> 
+
+  
+ 

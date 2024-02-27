@@ -8,6 +8,9 @@ import { CartapiService } from '../cart/services/cartapi.service';
   styleUrls: ['./products.component.css']
 })
 export class ProductsComponent implements OnInit {
+onSubmit() {
+throw new Error('Method not implemented.');
+}
   productlist:any;
   constructor(private api:ServicesService,
     private cartapi:CartapiService){}

@@ -7,6 +7,9 @@ import { FooterComponent } from './project/footer/footer.component';
 import { HeaderComponent } from './project/header/header.component';
 import { ProductsComponent } from './project/products/products.component';
 import{ HttpClientModule } from'@angular/common/http';
+import { LoginpageComponent } from './loginpage/loginpage.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { DropdownComponent } from './dropdown/dropdown.component';
 
 @NgModule({
   declarations: [
@@ -15,13 +18,18 @@ import{ HttpClientModule } from'@angular/common/http';
     FooterComponent,
     HeaderComponent,
     ProductsComponent,
+    LoginpageComponent,
+    DropdownComponent,
 
 
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule,
+    ReactiveFormsModule,
+    
 
   ],
   providers: [],
